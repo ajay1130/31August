@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ColorPlatteActivity">
+
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/design_default_color_primary_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/colorplatte"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            android:layout_margin="@dimen/color_platte_layout_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/image1"
+                    android:layout_margin="@dimen/color_platte_layout_margin"
+                    android:padding="@dimen/color_platte_layout_padding"
+                    android:layout_height="@dimen/color_platte_height"
+                    android:src="@drawable/nature1"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/contentdesc_image" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/image2"
+                    android:layout_margin="@dimen/color_platte_layout_margin"
+                    android:padding="@dimen/color_platte_layout_padding"
+                    android:layout_height="@dimen/color_platte_height"
+                    android:src="@drawable/nature2"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/contentdesc_image" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/image3"
+                    android:layout_margin="@dimen/color_platte_layout_margin"
+                    android:padding="@dimen/color_platte_layout_padding"
+                    android:layout_height="@dimen/color_platte_height"
+                    android:src="@drawable/nature3"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/contentdesc_image" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/image4"
+                    android:layout_margin="@dimen/color_platte_layout_margin"
+                    android:padding="@dimen/color_platte_layout_padding"
+                    android:layout_height="@dimen/color_platte_height"
+                    android:src="@drawable/nature4"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/contentdesc_image" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/image5"
+                    android:layout_margin="@dimen/color_platte_layout_margin"
+                    android:padding="@dimen/color_platte_layout_padding"
+                    android:layout_height="@dimen/color_platte_height"
+                    android:src="@drawable/nature5"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/contentdesc_image" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/image6"
+                    android:layout_margin="@dimen/color_platte_layout_margin"
+                    android:padding="@dimen/color_platte_layout_padding"
+                    android:layout_height="@dimen/color_platte_height"
+                    android:src="@drawable/nature6"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/contentdesc_image" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

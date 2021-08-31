@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="camera_button_width_height">100dp</dimen>
+    <dimen name="icon_padding">16dp</dimen>
+    <dimen name="margin_switch_camera">8dp</dimen>
+    <dimen name="padding_switch_camera">8dp</dimen>
+    <dimen name="cardelevation_camerabutton">2dp</dimen>
+    <dimen name="bottommargin_camerabutton">50dp</dimen>
+    <dimen name="color_platte_height">200dp</dimen>
+    <dimen name="color_platte_layout_margin">8dp</dimen>
+    <dimen name="color_platte_layout_padding">8dp</dimen>
+</resources>
